@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/PetrDvoracek/docker-nerds/issues"
   },
-  "homepage": "https://github.com/PetrDvoracek/docker-nerds#readme"
+  "homepage": "https://github.com/PetrDvoracek/docker-nerds#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
