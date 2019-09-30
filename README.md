@@ -87,3 +87,6 @@ You should get the same as in the previous steps. This is useful while debugging
 The relation between image and container is similar to class and instance. Once you build the image of your app, you can run
 theoretically as many instances of it with `docker run <imageName>` as you want from whatever path you want. 
 
+## Developing in Docker Container
+
+You can use docker container as a developing environment. This is extremely useful if you develop application which depends on other Linux tools and it configuration (such as NGINX). 
