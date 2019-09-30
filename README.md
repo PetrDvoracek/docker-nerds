@@ -11,6 +11,7 @@ sudo apt update
 sudo apt install snapd
 sudo snap install docker
 ```
+Do not forget to add `snap` to the PATH varialbe - add following to the `~/.bashrc` file `export PATH=$PATH:/snap/`
 According to [post installation steps](https://docs.docker.com/install/linux/linux-postinstall/) you will not be able to run docker
 without `sudo`. First create new group called `docker`, then append `-a` group `-G` `docker` to current `$USER`.
 
