@@ -1,7 +1,8 @@
 # Docker Tutorial
 
 Tutorial created by Pedro for guys from Skills Figters. The goal is to provide comprehensive materials which describes 
-*must know* stuff about docker. [lazydocker](https://github.com/jesseduffield/lazydocker#requirements) is great docker and docker-compose tool, you definitely have to check it out.
+*must know* stuff about docker. [lazydocker](https://github.com/jesseduffield/lazydocker#requirements) is great docker and docker-compose tool, you definitely have to check it out. Recommended articles: [Deploying ReactJS With Docker](https://medium.com/@mannycodes/deploying-reactjs-with-docker-ac16728c0896).
+
 
 ## Propper Docker Installation
 
@@ -93,4 +94,8 @@ You can use docker container as a developing environment. This is extremely usef
 
 ## docker-compose 
 
-It is easy to run docker container, right? just `docker run -p 49160:8080 -d <imageName>` as in preview chapter. It is easy in this case but if you want to `compose` the application from more containers connected via the docker network, you should definitely use docker-compose.
+It is easy to run docker container, right? just `docker run -p 49160:8080 -d <imageName>` as in preview chapter. It is easy in this case but if you want to `compose` the application from more containers connected via the docker network, you should definitely use docker-compose. **LATER**
+
+### Terminal Commands
+
+
