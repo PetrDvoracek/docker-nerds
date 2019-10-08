@@ -94,8 +94,20 @@ You can use docker container as a developing environment. This is extremely usef
 
 ## docker-compose 
 
-It is easy to run docker container, right? just `docker run -p 49160:8080 -d <imageName>` as in preview chapter. It is easy in this case but if you want to `compose` the application from more containers connected via the docker network, you should definitely use docker-compose. **LATER**
+It is easy to run docker container, right? just `docker run -p 49160:8080 -d <imageName>` as in preview chapter. It is easy in this case but if you want to `compose` the application from more containers connected via the docker network, you should definitely use docker-compose. 
 
-### Terminal Commands
+Lets start with easy example - just create `docker-compose.yml` so you get rid of port definitions. see branch `git checkout 3-docker-compose`
+
+```
+#docker-compose.yml
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+      - "49160:8080"
+
+```
+run `docker-compose build` and `docker-compose up` and see `http://127.0.0.1:49160/`.
 
 
