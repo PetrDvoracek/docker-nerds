@@ -18,4 +18,4 @@ COPY . .
 EXPOSE 80
 
 # defines runtime
-CMD [ "node", "server.js" ]
+CMD [ "node", "service.js" ]

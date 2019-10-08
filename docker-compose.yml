@@ -3,4 +3,10 @@ services:
   web:
     build: .
     ports:
-      - "49160:8080"
+      - "49160:80"  #HOST_VISIBLE : CONTAINER_VISIBLE
+  service:
+    build: ./service
+    ports:
+      - "3001:80"
+    expose:
+      - "80"
