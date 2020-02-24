@@ -6,7 +6,7 @@ Tutorial created by Pedro for guys from Skills Figters. The goal is to provide c
 
 ## Propper Docker Installation
 
-Install docker using `snap` store.
+Install docker using `snap` store. DONT DO THIS, USE OFFICIAL GUIDE https://docs.docker.com/install/linux/docker-ce/ubuntu/
 ```
 sudo apt update
 sudo apt install snapd
